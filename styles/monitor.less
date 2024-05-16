@@ -1,18 +1,15 @@
-// The ui-variables file is provided by base themes provided by Atom.
-// See https://github.com/atom/atom-dark-ui/blob/master/styles/ui-variables.less
-// for a full listing of what's available.
-@import "ui-variables";
 .file-monitoring {
     &:after {
-        content: "M";
-        width: 20px;
-        height: 20px;
-        color: @text-color-success;
+        content: "W";
         position: absolute;
+        width: 22px;
+        height: 22px;
+        line-height: 22px !important;
+        font-size: 12px !important;
+        color: #34ccff;
         left: 10px;
-        text-align: center;
         border-radius: 50%;
-        line-height: 20px;
+        text-align: center;
     }
     &.pulse:after {
         -webkit-animation-name: greenPulse;
@@ -23,12 +20,12 @@
 
 @-webkit-keyframes greenPulse {
     from {
-        -webkit-box-shadow: 0 0 9px transparentize(@text-color-success,0.8);
+        -webkit-box-shadow: 0 0 9px transparentize(#34ccff,0.7);
     }
     50% {
-        -webkit-box-shadow: 0 0 18px darken(@text-color-success,10%);
+        -webkit-box-shadow: 0 0 18px darken(#34ccff,10%);
     }
     to {
-        -webkit-box-shadow: 0 0 9px transparentize(@text-color-success,0.8);
+        -webkit-box-shadow: 0 0 9px transparentize(#34ccff,0.7);
     }
 }

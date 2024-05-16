@@ -1,10 +1,10 @@
 {
-  "name": "atom-sync",
+  "name": "pulsar-sync",
   "version": "1.0.0",
   "description": "Upload files to remote host after every change. Both SCP/SFTP and FTP are supported.",
   "license": "MIT",
-  "repository": "https://github.com/Psychosynthesis/AtomSync",
-  "main": "index.coffee",
+  "repository": "https://github.com/Psychosynthesis/PulsarSync",
+  "main": "index.js",
   "engines": {
     "atom": ">=0.78"
   },
@@ -16,7 +16,7 @@
     "fs-plus": "^3.0.0",
     "ftp": "^0.3.7",
     "minimatch": "^3.0",
-    "mkdirp": "^0.3",
+    "mkdirp": "^0.5",
     "ssh2": "^0.5"
   }
 }

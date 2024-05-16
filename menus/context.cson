@@ -1,22 +1,22 @@
 'context-menu':
   '.entries.list-tree .file.entry.list-item':[
-    label: 'AtomSync',
+    label: 'PulsarSync',
     submenu:[
-      {label: 'Upload File', command: 'atom-sync:upload-file'}
-      {label: 'Download File', command: 'atom-sync:download-file'}
-      {label: 'Delete File', command: 'atom-sync:delete-file'}
-      {label: 'Monitor File (Upload on External Save)', command: 'atom-sync:monitor-file'}
-      {label: 'Configure', command: 'atom-sync:configure'}
+      {label: 'Upload File', command: 'pulsar-sync:upload-file'}
+      {label: 'Download File', command: 'pulsar-sync:download-file'}
+      {label: 'Delete File', command: 'pulsar-sync:delete-file'}
+      {label: 'Monitor File (Upload on External Save)', command: 'pulsar-sync:monitor-file'}
+      {label: 'Configure', command: 'pulsar-sync:configure'}
     ]
   ]
 
   '.entries.list-tree .header.list-item, .header.list-item.project-root-header':[
-    label: 'AtomSync',
+    label: 'PulsarSync',
     submenu:[
-      {label: 'Upload Folder', command: 'atom-sync:upload-folder'}
-      {label: 'Upload Folder Change', command: 'atom-sync:upload-git-change'}
-      {label: 'Download Folder', command: 'atom-sync:download-folder'}
-      {label: 'Delete Folder', command: 'atom-sync:delete-folder'}
-      {label: 'Configure', command: 'atom-sync:configure'}
+      {label: 'Upload Folder', command: 'pulsar-sync:upload-folder'}
+      {label: 'Upload Folder Change', command: 'pulsar-sync:upload-git-change'}
+      {label: 'Download Folder', command: 'pulsar-sync:download-folder'}
+      {label: 'Delete Folder', command: 'pulsar-sync:delete-folder'}
+      {label: 'Configure', command: 'pulsar-sync:configure'}
     ]
   ]

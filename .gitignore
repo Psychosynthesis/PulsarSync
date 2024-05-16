@@ -1,5 +1,5 @@
 /node_modules/
-/.remote-sync.json
+/.sync.json
 
 # Folder view configuration files
 .DS_Store
