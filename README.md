@@ -2,22 +2,16 @@
 
 Although Microsoft has buried Atom (which, as we all know, is quite typical for this nasty company - to buy competitors projects and shut them down), the community still continues to develop the project under a different name - Pulsar. So it's time to bring new ftp|sftp syncing-package for them.
 
-One of the most useful additions for Pulsar was `remote-sync`, which for some reason was not updated and did not fix bugs. I fixed his mistakes in order to continue using this add-on, because. it is quite convenient. At the same time I rewrote everything into normal JS
+One of the most useful additions for Atom was `remote-sync`, which for some reason was not updated and did not fix bugs. I fixed his mistakes in order to continue using this add-on, because. it is quite convenient. At the same time I rewrote everything into normal JS.
 
 ## So what is it?
 
-PulsarSync let you use SFTP and FTP features inside Pulsar, having the ability to upload and download files directly from inside Pulsar.
-
-PulsarSync is a revision of two projects: `remote-sync` which was abandoned in 2016 and `remote-sync-pro` which fixed some of the bugs of the first package.
-
-In this version, the rather dubious `diff`-function, which caused a lot of glitches, has been removed, several bugs have been fixed, and support for keepalive connections has been added.
-
-The name config-file is left the same as in the original `.sync.json` for compatibility.
+PulsarSync let you use SFTP and FTP features inside Pulsar, having the ability to upload and download files directly from Tree-view. PulsarSync is a revision of two projects: `remote-sync` which was abandoned in 2016 and `remote-sync-pro` which fixed some of the bugs of the first package. In my version several bugs have been fixed, and support for keepalive connections has been added.
 
 ## Features
 
 - Uploading/downloading files to/from the server
-- Monitoring files for external changes and automatically uploading - useful for scss/less compiling
+- Monitoring files for external changes and **automatically** uploading - useful for scss/less compiling
 - Support for both SCP/SFTP and FTP
 
 ## Extras
