@@ -1,6 +1,6 @@
 # PulsarSync
 
-Although Microsoft has buried Atom (which, as we all know, is quite typical for this nasty company - to buy competitors projects and shut them down), the community still continues to use Atom. There are even attempts to revive him (Pulsar), so it's time to bring new syncing-package for them.
+Although Microsoft has buried Atom (which, as we all know, is quite typical for this nasty company - to buy competitors projects and shut them down), the community still continues to develop the project under a different name - Pulsar. So it's time to bring new ftp|sftp syncing-package for them.
 
 One of the most useful additions for Pulsar was `remote-sync`, which for some reason was not updated and did not fix bugs. I fixed his mistakes in order to continue using this add-on, because. it is quite convenient. At the same time I rewrote everything into normal JS
 
@@ -29,14 +29,14 @@ The name config-file is left the same as in the original `.sync.json` for compat
 - Set custom config name
 - Support for native Pulsar Notifications
 
-## Installation
+## Manual installation
 
-Since the atom package subsystem is no longer running, the only way to install a package is as follows:
+If you need to install a package without the package subsystem, make next steps:
 - Download / clone this repository to your `/home/user/.atom/packages/pulsar-sync`
 - Enter the directory
-- Run `ppm install`
+- Run `ppm install` (in Atom it was `apm`)
 
-Please note that the finish folder must be named exactly "pulsar-sync", because apm packages (as and `npm` too) don't recognize large and small characters.
+Please note that the finish folder must be named exactly "pulsar-sync", because ppm packages (as and `npm` too) don't recognize large and small characters.
 
 ## Usage
 
