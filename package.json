@@ -6,7 +6,7 @@
   "repository": "https://github.com/Psychosynthesis/PulsarSync",
   "main": "index.js",
   "engines": {
-    "atom": ">=1.0.0"
+    "atom": ">=1.0.0 <2.0.0"
   },
   "dependencies": {
     "async": "^3.0.0",

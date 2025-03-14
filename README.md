@@ -1,8 +1,8 @@
 # PulsarSync
 
-Although Microsoft has buried Atom (which, as we all know, is quite typical for this nasty company - to buy competitors projects and shut them down), the community still continues to develop the project under a different name - Pulsar. So it's time to bring new ftp|sftp syncing-package for them.
+Although Microsoft has buried Atom (which, as we all know, is quite typical for this company - to buy competitors projects and shut them down), the community still continues to develop the project under a different name - [Pulsar](https://pulsar-edit.dev). So it's time to bring new ftp|sftp syncing-package for them.
 
-One of the most useful additions for Atom was `remote-sync`, which for some reason was not updated and did not fix bugs. I fixed his mistakes in order to continue using this add-on, because. it is quite convenient. At the same time I rewrote everything into normal JS.
+One of the most useful additions for Atom was `remote-sync`, which for some reason was not updated and did not fix bugs. I fixed his mistakes in order to continue using this add-on, because. it is quite convenient. At the same time I rewrote everything into simple JS.
 
 ## So what is it?
 
