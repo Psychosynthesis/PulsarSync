@@ -1,6 +1,6 @@
 {
   "name": "pulsar-sync",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Upload files to remote host after every change. Both SCP/SFTP and FTP are supported.",
   "license": "MIT",
   "repository": "https://github.com/Psychosynthesis/PulsarSync",
